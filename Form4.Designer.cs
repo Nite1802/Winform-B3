@@ -41,36 +41,38 @@
             // labelDice1
             // 
             labelDice1.BackColor = Color.FromArgb(128, 255, 255);
-            labelDice1.Location = new Point(74, 33);
+            labelDice1.Location = new Point(65, 25);
             labelDice1.Name = "labelDice1";
-            labelDice1.Size = new Size(93, 99);
+            labelDice1.Size = new Size(81, 74);
             labelDice1.TabIndex = 0;
             labelDice1.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // labelDice2
             // 
             labelDice2.BackColor = Color.FromArgb(128, 255, 255);
-            labelDice2.Location = new Point(210, 33);
+            labelDice2.Location = new Point(184, 25);
             labelDice2.Name = "labelDice2";
-            labelDice2.Size = new Size(93, 99);
+            labelDice2.Size = new Size(81, 74);
             labelDice2.TabIndex = 1;
             labelDice2.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // labelDice3
             // 
             labelDice3.BackColor = Color.FromArgb(128, 255, 255);
-            labelDice3.Location = new Point(346, 33);
+            labelDice3.Location = new Point(303, 25);
             labelDice3.Name = "labelDice3";
-            labelDice3.Size = new Size(93, 99);
+            labelDice3.Size = new Size(81, 74);
             labelDice3.TabIndex = 2;
             labelDice3.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // rbtnOption1
             // 
             rbtnOption1.AutoSize = true;
-            rbtnOption1.Location = new Point(107, 175);
+            rbtnOption1.Checked = true;
+            rbtnOption1.Location = new Point(94, 131);
+            rbtnOption1.Margin = new Padding(3, 2, 3, 2);
             rbtnOption1.Name = "rbtnOption1";
-            rbtnOption1.Size = new Size(60, 24);
+            rbtnOption1.Size = new Size(48, 19);
             rbtnOption1.TabIndex = 3;
             rbtnOption1.TabStop = true;
             rbtnOption1.Text = "3-10";
@@ -78,21 +80,21 @@
             // 
             // rbtnOption2
             // 
-            rbtnOption2.AutoCheck = false;
             rbtnOption2.AutoSize = true;
-            rbtnOption2.Location = new Point(306, 175);
+            rbtnOption2.Location = new Point(268, 131);
+            rbtnOption2.Margin = new Padding(3, 2, 3, 2);
             rbtnOption2.Name = "rbtnOption2";
-            rbtnOption2.Size = new Size(68, 24);
+            rbtnOption2.Size = new Size(54, 19);
             rbtnOption2.TabIndex = 4;
-            rbtnOption2.TabStop = true;
             rbtnOption2.Text = "11-18";
             rbtnOption2.UseVisualStyleBackColor = true;
             // 
             // btnPlay
             // 
-            btnPlay.Location = new Point(194, 226);
+            btnPlay.Location = new Point(170, 170);
+            btnPlay.Margin = new Padding(3, 2, 3, 2);
             btnPlay.Name = "btnPlay";
-            btnPlay.Size = new Size(94, 29);
+            btnPlay.Size = new Size(82, 22);
             btnPlay.TabIndex = 5;
             btnPlay.Text = "Play";
             btnPlay.UseVisualStyleBackColor = true;
@@ -101,26 +103,26 @@
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(117, 303);
+            label4.Location = new Point(102, 227);
             label4.Name = "label4";
-            label4.Size = new Size(88, 20);
+            label4.Size = new Size(71, 15);
             label4.TabIndex = 6;
             label4.Text = "Your Scores:";
             // 
             // labelScore
             // 
             labelScore.BorderStyle = BorderStyle.FixedSingle;
-            labelScore.Location = new Point(211, 303);
+            labelScore.Location = new Point(185, 227);
             labelScore.Name = "labelScore";
-            labelScore.Size = new Size(62, 25);
+            labelScore.Size = new Size(54, 19);
             labelScore.TabIndex = 7;
             labelScore.Text = "0";
             // 
             // Form4
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(510, 381);
+            ClientSize = new Size(446, 286);
             Controls.Add(labelScore);
             Controls.Add(label4);
             Controls.Add(btnPlay);
@@ -129,6 +131,7 @@
             Controls.Add(labelDice3);
             Controls.Add(labelDice2);
             Controls.Add(labelDice1);
+            Margin = new Padding(3, 2, 3, 2);
             Name = "Form4";
             Text = "Form4";
             ResumeLayout(false);

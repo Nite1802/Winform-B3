@@ -21,9 +21,10 @@ namespace _27_Vy_N2_B3
         {
             //lac xuc xac
             int a, b, c;
-            a = new Random().Next(1, 6);
-            b = new Random().Next(1, 6);
-            c = new Random().Next(1, 6);
+            Random rnd = new Random();
+            a = rnd.Next(1, 6);
+            b = rnd.Next(1, 6);
+            c = rnd.Next(1, 6);
             labelDice1.Text = a.ToString();
             labelDice2.Text = b.ToString();
             labelDice3.Text = c.ToString();
